@@ -3,4 +3,11 @@
 # we use open and close sqaure bracket[]
 # we can store multiple values into the same variable or object
 friends = ["Victor", "Jude", "emeka"]
-print(friends[2])
+lucky_num = [2,5,8,9,4,7]
+class1 = ["ss1","ss2","ss3"]
+#print(friends[2])
+print(friends)
+friends.extend(lucky_num) #the extend function adds friends and lucky_num together
+print(friends)
+#print(class1[1:])
+#print(lucky_num[2:3])
