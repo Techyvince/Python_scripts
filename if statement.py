@@ -1,15 +1,32 @@
 # If statement are used to execute certain code when certain conditions are true or false
 # if statement responds to the input that they are given 
+# if statement helps our code make decisions 
 
-is_male = True # This a boolean variable
-is_tall = False
+male = True #  true or false is a boolean variable
+tall = False
 
-if is_male and is_tall:  # both conditions have to be true 
+if male and tall:  # and means both conditions is true 
     print("You are a tall male")
+elif male and not (tall): 
+    print("You are a short male")
+elif not(male) and tall: 
+    print("You are not a male but are tall")
 else:
-    print("You are either not male or tall or both")
+    print("You are either not male or not tall or both")
 
-if is_male or is_tall:
-    print("You are a male or tall or both")
+if male or tall: # or means one or both values is true
+    print("You either a male or tall")
 else:
-    print("You are neither male nor tall")
+    print("You are not a not a male or tall")
+
+
+food =  False
+car = False
+if food:
+    print("yaaay")
+else:  
+    print("naaa")  
+if car:
+    print("This is a brand new car")
+else:
+    print("This is not a brand new car")            
